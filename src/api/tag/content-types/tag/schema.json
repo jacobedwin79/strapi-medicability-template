@@ -15,6 +15,10 @@
     "name": {
       "type": "string"
     },
+    "slug": {         
+      "type": "uid",
+      "targetField": "name" 
+    },
     "articles": {
       "type": "relation",
       "relation": "manyToMany",
